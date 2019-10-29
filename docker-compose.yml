@@ -3,6 +3,6 @@ version: '3'
 services:
   ticker_stream:
     build: .
-    command: python /code/ticker_stream_2.py
+    command: python /code/ticker_stream.py
     volumes:
       - .:/code
